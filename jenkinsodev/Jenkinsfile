@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'melekgezer-html-server'
-        CONTAINER_NAME = 'melekgezer-container'
+        DOCKER_IMAGE = 'berkaysari-html-server'
+        CONTAINER_NAME = 'berkaysari-container'
         PORT_MAPPING = '80:4444'
     }
 stages {
